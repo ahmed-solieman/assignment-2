@@ -1,17 +1,10 @@
-const path = require("node:path")
-const fs = require("node:fs")
-const events = require("node:events")
-const stream = require("node:stream")
-const os = require("node:os")
-const zLib = require("node:zlib")
 
-
-const path = require('path');
-const fs = require('fs');
-const os = require('os');
-const EventEmitter = require('events');
-const { pipeline } = require('stream');
-const zlib = require('zlib');
+const path = require('node:path');
+const fs = require('node:fs');
+const os = require('node:os');
+const EventEmitter = require('node:events');
+const { pipeline } = require('node:stream');
+const zlib = require('node:zlib');
 
 // 1
 function logCurrentPath() {
